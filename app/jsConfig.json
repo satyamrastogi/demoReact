@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "eslint.run": "onSave",
+  "compilerOptions": {
+    "baseUrl": "app",
+    "module": "commonjs",
+    "target": "es2016",
+    "jsx": "react"
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
